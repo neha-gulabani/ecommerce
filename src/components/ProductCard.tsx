@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { Star } from 'lucide-react';
-import Image from 'next/image'  // Import Next.js Image component
+
 
 export default function ProductCard({ product }: { product: any }) {
 
