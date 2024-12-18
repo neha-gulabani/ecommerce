@@ -29,7 +29,7 @@ const ProductDetailPage = async ({ params }: { params: { id: string } }) => {
 
     if (!product) {
         return (
-            <div className="flex justify-center items-center min-h-screen">
+            <div className="flex justify-center items-center min-h-screen flex-col">
                 <div className="spinner-border animate-spin inline-block w-16 h-16 border-4 border-t-4 border-gray-600 rounded-full" role="status" />
 
 

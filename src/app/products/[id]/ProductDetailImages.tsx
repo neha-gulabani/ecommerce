@@ -45,12 +45,14 @@ const ProductDetailImages = ({ product }: { product: any }) => {
                 <button
                     className="px-4 py-2 bg-gray-300 text-black rounded-md"
                     onClick={handlePrevImage}
+                    disabled={currentImageIndex === 0}
                 >
                     Previous
                 </button>
                 <button
                     className="px-4 py-2 bg-gray-300 text-black rounded-md ml-4"
                     onClick={handleNextImage}
+                    disabled={currentImageIndex === product.images.length - 1}
                 >
                     Next
                 </button>
